@@ -23,7 +23,7 @@ public class MainView extends VerticalLayout {
         this.editor = editor;
         this.grid = new Grid<>(Customer.class);
         this.filter = new TextField();
-        this.addNewBtn = new Button("Create User", VaadinIcon.PLUS.create());
+        this.addNewBtn = new Button("add User", VaadinIcon.PLUS.create());
 
         HorizontalLayout actions = new HorizontalLayout(filter, addNewBtn);
         add(actions, grid, editor);
